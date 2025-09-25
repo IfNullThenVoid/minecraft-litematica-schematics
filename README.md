@@ -12,3 +12,4 @@ Once you have the schematics, place them in the schematics directory as set up i
 - [Litematica Official Homepage](https://litematica.org/ "Litematica Official Homepage")
 - [Litematica on Modrinth](https://modrinth.com/mod/litematica/ "Litematica on Modrinth")
 - [Litematica on CurseForge](https://www.curseforge.com/minecraft/mc-mods/litematica "Litematica on CurseForge")
+- [Litematica on Github](https://github.com/maruohon/litematica "Litematica on Github")
