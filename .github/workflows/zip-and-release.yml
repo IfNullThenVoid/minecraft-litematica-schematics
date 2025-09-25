@@ -1,0 +1,22 @@
+name: Create and Upload Release Artifact
+on:
+ release:
+   types: [created]
+jobs:
+ build:
+   runs-on: ubuntu-latest
+   steps:
+     # Step 1: Checkout the repository
+     - name: Checkout code
+       uses: actions/checkout@v2
+     # Step 2: Create a zip file of the repository
+     - name: Create zip file
+       run: zip -r release.zip
+     # Step 3: Upload the zip file as a release asset
+     - name: Upload Release Asset
+       uses: actions/upload-release-asset@v1
+       with:
+         upload_url: ${{ github.event.release.upload_url }}
+         asset_path: ./release.zip
+         asset_name: release.zip
+         asset_content_type: application/zip
