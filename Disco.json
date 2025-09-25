@@ -1,0 +1,35 @@
+{
+  "name": "Disco",
+  "origin": [
+    -152,
+    4,
+    7
+  ],
+  "current_version_id": -1,
+  "selection_normal": {
+    "name": "Disco"
+  },
+  "selection_simple": {
+    "name": "Disco",
+    "current": "Unnamed",
+    "boxes": [
+      {
+        "pos1": [
+          -152,
+          4,
+          7
+        ],
+        "pos2": [
+          -152,
+          4,
+          7
+        ],
+        "name": "Unnamed"
+      }
+    ]
+  },
+  "last_seen_area": {
+    "name": "Unnamed"
+  },
+  "selection_mode": "SIMPLE"
+}
